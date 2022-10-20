@@ -1,6 +1,6 @@
 var Userdb = require('../model/model');
 
-// create and save new user
+// create and save new user.
 exports.create = (req,res)=>{
     // validate request
     if(!req.body){
