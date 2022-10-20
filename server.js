@@ -11,7 +11,7 @@ const app = express();
 dotenv.config( { path : 'config.env'} )
 const PORT = process.env.PORT || 8080
 
-// log requests
+// log requests.
 app.use(morgan('tiny'));
 
 // mongodb connection
